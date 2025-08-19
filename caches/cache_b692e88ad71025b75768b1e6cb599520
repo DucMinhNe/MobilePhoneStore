@@ -1,0 +1,121 @@
+a:2:{i:0;i:1755606280;i:1;a:10:{s:2:"id";i:1;s:7:"options";s:1704:"{"mailertype":"1","ip_host":"116.193.69.136","port_host":"587","secure_host":"tls","email_host":"info@iphonethanhnhan.vn","password_host":"4UfmpG9cyE","host_gmail":"smtp.gmail.com","port_gmail":"587","secure_gmail":"tls","email_gmail":"autosendnoreply01@gmail.com","password_gmail":"ntfocjyshxgoxqbg","lang_default":"vi","address":" 6-8 Quang Trung, P. A, TP. Ch\u00e2u \u0110\u1ed1c, T. An Giang","email":"thanhnhan.software@gmail.com","hotline":"0868676767","phone":"0868676767","zalo":"0868676767","oaidzalo":"","website":"https:\/\/iphonethanhnhan.vn\/","fanpage":"https:\/\/www.facebook.com\/thanhnhaniphonechaudoc","toado":"","toado_iframe":"<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3919.4481760094527!2d106.68480041483649!3d10.776945462130913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3b27d8a7fd%3A0xdb0d92470911a699!2sThe%20Box%20Market!5e0!3m2!1svi!2s!4v1589339784678!5m2!1svi!2s\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"><\/iframe>","coords":"9.982851, 105.933084","coords_iframe":"<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d2007999.4674416548!2d104.7525564!3d10.5890263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310a277ea4b98b83%3A0xb489abaca6065c60!2zxJBp4buHbiBUaG_huqFpIENow6J1IMSQ4buRYyBUaGFuaCBOaMOgbg!5e0!3m2!1svi!2s!4v1689777033019!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>","link_googlemaps":"https:\/\/goo.gl\/maps\/NDLTXqRT8vg5F9Jn6","worktime":"8h - 20h30 ","tiktok":"https:\/\/www.tiktok.com\/@iphonethanhnhan"}";s:10:"mastertool";s:120:"&lt;meta name=&quot;google-site-verification&quot; content=&quot;zFXV0o2PUEy7TPISKiNa5KSd8IzOwmf-Qtv_3GrvtOY&quot; /&gt;";s:6:"headjs";s:6077:"&lt;script&gt;
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[&quot;page&quot;,&quot;track&quot;,&quot;identify&quot;,&quot;instances&quot;,&quot;debug&quot;,&quot;on&quot;,&quot;off&quot;,&quot;once&quot;,&quot;ready&quot;,&quot;alias&quot;,&quot;group&quot;,&quot;enableCookie&quot;,&quot;disableCookie&quot;],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i&lt;ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n&lt;ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i=&quot;https://analytics.tiktok.com/i18n/pixel/events.js&quot;;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement(&quot;script&quot;);o.type=&quot;text/javascript&quot;,o.async=!0,o.src=i+&quot;?sdkid=&quot;+e+&quot;&amp;lib=&quot;+t;var a=document.getElementsByTagName(&quot;script&quot;)[0];a.parentNode.insertBefore(o,a)};
+
+  ttq.load('CITMOQBC77U3JLGD4QBG');
+  ttq.page();
+}(window, document, 'ttq');
+&lt;/script&gt;
+&lt;script&gt;
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[&quot;page&quot;,&quot;track&quot;,&quot;identify&quot;,&quot;instances&quot;,&quot;debug&quot;,&quot;on&quot;,&quot;off&quot;,&quot;once&quot;,&quot;ready&quot;,&quot;alias&quot;,&quot;group&quot;,&quot;enableCookie&quot;,&quot;disableCookie&quot;],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i&lt;ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n&lt;ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i=&quot;https://analytics.tiktok.com/i18n/pixel/events.js&quot;;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement(&quot;script&quot;);o.type=&quot;text/javascript&quot;,o.async=!0,o.src=i+&quot;?sdkid=&quot;+e+&quot;&amp;lib=&quot;+t;var a=document.getElementsByTagName(&quot;script&quot;)[0];a.parentNode.insertBefore(o,a)};
+
+  ttq.load('CITMOQBC77U3JLGD4QBG');
+  ttq.page();
+}(window, document, 'ttq');
+&lt;/script&gt;
+
+&lt;script&gt;
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=[&quot;page&quot;,&quot;track&quot;,&quot;identify&quot;,&quot;instances&quot;,&quot;debug&quot;,&quot;on&quot;,&quot;off&quot;,&quot;once&quot;,&quot;ready&quot;,&quot;alias&quot;,&quot;group&quot;,&quot;enableCookie&quot;,&quot;disableCookie&quot;],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i&lt;ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n&lt;ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var i=&quot;https://analytics.tiktok.com/i18n/pixel/events.js&quot;;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=i,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};var o=document.createElement(&quot;script&quot;);o.type=&quot;text/javascript&quot;,o.async=!0,o.src=i+&quot;?sdkid=&quot;+e+&quot;&amp;lib=&quot;+t;var a=document.getElementsByTagName(&quot;script&quot;)[0];a.parentNode.insertBefore(o,a)};
+
+  ttq.load('CITMOQBC77U3JLGD4QBG');
+  ttq.page();
+}(window, document, 'ttq');
+&lt;/script&gt;
+
+&lt;!-- Meta Pixel Code --&gt;
+&lt;script&gt;
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1007515633630070');
+fbq('track', 'PageView');
+&lt;/script&gt;
+&lt;noscript&gt;&lt;img height=&quot;1&quot; width=&quot;1&quot; style=&quot;display:none&quot;
+src=&quot;https://www.facebook.com/tr?id=1007515633630070&amp;ev=PageView&amp;noscript=1&quot;
+/&gt;&lt;/noscript&gt;
+&lt;!-- End Meta Pixel Code --&gt;
+
+&lt;!-- Meta Pixel Code --&gt;
+&lt;script&gt;
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '976569966948863');
+fbq('track', 'PageView');
+&lt;/script&gt;
+&lt;noscript&gt;&lt;img height=&quot;1&quot; width=&quot;1&quot; style=&quot;display:none&quot;
+src=&quot;https://www.facebook.com/tr?id=976569966948863&amp;ev=PageView&amp;noscript=1&quot;
+/&gt;&lt;/noscript&gt;
+&lt;!-- End Meta Pixel Code --&gt;
+
+&lt;meta name='dmca-site-verification' content='ak5lbEk5NmVwaFBXY2VEdENkM1cxMkgvNnpHVW9oSVlEVXBJa1hNWGlvQT01' /&gt;
+
+&lt;!-- Meta Pixel Code --&gt;
+&lt;script&gt;
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '815088323739097');
+fbq('track', 'PageView');
+&lt;/script&gt;
+&lt;noscript&gt;&lt;img height=&quot;1&quot; width=&quot;1&quot; style=&quot;display:none&quot;
+src=&quot;https://www.facebook.com/tr?id=815088323739097&amp;ev=PageView&amp;noscript=1&quot;
+/&gt;&lt;/noscript&gt;
+&lt;!-- End Meta Pixel Code --&gt;
+
+";s:6:"bodyjs";s:985:"    &lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
+
+    
+    &lt;div id=&quot;fb-customer-chat&quot; class=&quot;fb-customerchat&quot;&gt;
+    &lt;/div&gt;
+
+    &lt;script&gt;
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute(&quot;page_id&quot;, &quot;708749149327006&quot;);
+      chatbox.setAttribute(&quot;attribution&quot;, &quot;biz_inbox&quot;);
+    &lt;/script&gt;
+
+    
+    &lt;script&gt;
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v17.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    &lt;/script&gt;
+
+";s:6:"namevi";s:31:"iPhone Châu Đốc Thanh Nhàn";s:6:"nameen";s:12:"name company";s:9:"addressvi";s:53:" 6-8 Quang Trung, P. A, TP. Châu Đốc, T. An Giang";s:9:"addressen";s:10:"address en";s:9:"analytics";s:337:"&lt;!-- Google tag (gtag.js) --&gt;
+&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=UA-RZSZEB8VE6&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-RZSZEB8VE6');
+&lt;/script&gt;";}}
