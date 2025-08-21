@@ -28,7 +28,7 @@ if (!empty($row)) {
     <label class=" d-block">Hình ảnh : </label>
     <div class=" text-center">
         <img class="irounded mb-2 m-auto "
-            src="<?= ASSET . "thumbs/250x250x1/" . UPLOAD_PRODUCT_L . $v['photo_price'] ?>" alt="">
+            src="<?= ASSET . "thumbs/250x250x1/" . UPLOAD_PRODUCT_L . (!empty($rowSizeDeail['photo']) ? $rowSizeDeail['photo'] : 'noimage.png') ?>" alt="">
     </div>
     <div class="input-group mb-2">
         <div class="custom-file">
@@ -127,7 +127,7 @@ if (!empty($row)) {
 
     <label>Hình ảnh : </label>
     <img class="irounded mb-2 m-auto d-block "
-        src="<?= ASSET . "thumbs/250x250x1/" . UPLOAD_PRODUCT_L . $v['photo_price'] ?>" alt="">
+        src="<?= ASSET . "thumbs/250x250x1/" . UPLOAD_PRODUCT_L . (!empty($rowSizeDeail['photo']) ? $rowSizeDeail['photo'] : 'noimage.png') ?>" alt="">
 
     <div class="input-group mb-2">
         <div class="custom-file">
