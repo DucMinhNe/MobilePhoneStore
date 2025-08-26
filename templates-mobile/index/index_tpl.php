@@ -45,7 +45,7 @@
 <?php if (count($thuvien)) { ?>
     <div class="album">
         <div class="wrap-content">
-            <div class="slogan-album">Hơn 10000 khách hàng đã tin tưởng Thanh Nhàn! </div>
+            <div class="slogan-album">Hơn 10000 khách hàng đã tin tưởng Phu An Khang! </div>
             <div class="owl-page owl-carousel owl-theme" data-items="screen:0|items:2|margin:10,screen:425|items:2|margin:20,screen:575|items:2|margin:20,screen:767|items:3|margin:20,screen:1199|items:6|margin:6" data-rewind="1" data-autoplay="1" data-loop="0" data-lazyload="0" data-mousedrag="1" data-touchdrag="1" data-smartspeed="300" data-autoplayspeed="500" data-autoplaytimeout="3500" data-dots="0" data-nav="0" data-navcontainer="">
                 <?php foreach ($thuvien as $k => $v) { ?>
                     <div class="album_item ">
@@ -59,13 +59,13 @@
     </div>
 <?php } ?>
 
-<div class="banner-quangcao">
+<!-- <div class="banner-quangcao">
     <div class="wrap-content">
         <div>
             <img class="w-100" onerror="this.src='<?= THUMBS ?>/1188x318x1/assets/images/noimage.png';" src="<?= THUMBS ?>/1188x318x1/<?= UPLOAD_PHOTO_L . $banner_qc2['photo'] ?>" alt="<?= $setting['name' . $lang] ?>" title="<?= $setting['name' . $lang] ?>" />
         </div>
     </div>
-</div>
+</div> -->
 
 <?php if (count($productHot)) { ?>
     <div class="product__hot">
@@ -207,7 +207,7 @@
 <div class="wrap-intro">
     <div class="wrap-content">
         <div class="title-main title-index">
-            <span>Fanpage Thanh Nhàn</span>
+            <span>Fanpage Phu An Khang</span>
         </div>
         <div class="row">
             <div class="col-12 mb-2">

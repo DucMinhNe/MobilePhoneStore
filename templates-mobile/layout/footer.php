@@ -43,7 +43,7 @@
     <div class="footer-powered">
         <div class="wrap-content">
             <div class="row">
-                <div class="footer-copyright col-md-12">Copyright © 2023 <?= $copyright['name' . $lang] ?>. Designed by <a href="https://nina.vn" class=" text-decoration-none" title="Nina.vn">Nina.vn</a></div>
+                <div class="footer-copyright col-md-12">Copyright © 2025 <?= $copyright['name' . $lang] ?>. Designed by <a href="https://minhle.io.vn" class=" text-decoration-none" title="minhle.io.vn">minhle.io.vn</a></div>
                 <div class="footer-statistic col-md-12">
                     <span><?= dangonline ?>: <?= $online ?></span>
                     <span><?= trongthang ?>: <?= $counter['month'] ?></span>

@@ -17224,7 +17224,7 @@ INSERT INTO `table_ward` (`id`, `id_city`, `id_district`, `districtid`, `wardcod
 (11231, 63, 719, 1489, '1A0201', 'Phường Chương Dương Độ', 'phuong-chuong-duong-do', '', '', 11231, 'hienthi', 0, 0, 0),
 (11232, 63, 720, 1488, '1A0320', 'Phường Vĩnh Tuy', 'phuong-vinh-tuy', '', '', 11232, 'hienthi', 0, 0, 0),
 (11233, 63, 720, 1488, '1A0319', 'Phường Trương Định', 'phuong-truong-dinh', '', '', 11233, 'hienthi', 0, 0, 0),
-(11234, 63, 720, 1488, '1A0318', 'Phường Thanh Nhàn', 'phuong-thanh-nhan', '', '', 11234, 'hienthi', 0, 0, 0),
+(11234, 63, 720, 1488, '1A0318', 'Phường Phu An Khang', 'phuong-thanh-nhan', '', '', 11234, 'hienthi', 0, 0, 0),
 (11235, 63, 720, 1488, '1A0317', 'Phường Thanh Lương', 'phuong-thanh-luong', '', '', 11235, 'hienthi', 0, 0, 0),
 (11236, 63, 720, 1488, '1A0316', 'Phường Quỳnh Mai', 'phuong-quynh-mai', '', '', 11236, 'hienthi', 0, 0, 0),
 (11237, 63, 720, 1488, '1A0315', 'Phường Quỳnh Lôi', 'phuong-quynh-loi', '', '', 11237, 'hienthi', 0, 0, 0),
