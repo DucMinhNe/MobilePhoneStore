@@ -1,12 +1,23 @@
 <?php
 if (!defined('LIBRARIES')) die("Error");
 
+/*
+ * Sample config — copy to libraries/config.php and fill in your real values:
+ *   cp libraries/config.sample.php libraries/config.php
+ * libraries/config.php is git-ignored and must never be committed.
+ */
+
 /* Timezone */
 date_default_timezone_set('Asia/Ho_Chi_Minh');
 
 /* Cấu hình coder */
-define('NN_CONTRACT', '1035723w');
+define('NN_CONTRACT', 'YOUR_CONTRACT_CODE');
 define('NN_AUTHOR', 'anhphi2k2.nina@gmail.com');
+
+/* Cấu hình KiotViet API (dùng trong libraries/class/class.KiotViet.php) */
+define('KIOTVIET_CLIENT_ID', 'YOUR_KIOTVIET_CLIENT_ID');
+define('KIOTVIET_CLIENT_SECRET', 'YOUR_KIOTVIET_CLIENT_SECRET');
+define('KIOTVIET_RETAILER', 'YOUR_KIOTVIET_RETAILER');
 
 /* Cấu hình chung */
 $config = array(
@@ -21,8 +32,8 @@ $config = array(
         'url' => '/IpadStore/',
         'type' => 'mysql',
         'host' => 'localhost',
-        'username' => 'root',
-        'password' => '',
+        'username' => 'YOUR_DB_USERNAME',
+        'password' => 'YOUR_DB_PASSWORD',
         'dbname' => 'khang_store',
         'port' => 3306,
         'prefix' => 'table_',
@@ -30,8 +41,8 @@ $config = array(
     ),
     'website' => array(
         'error-reporting' => true,
-        'secret' => '$nina@',
-        'salt' => 'Be_McdE$Z>',
+        'secret' => 'YOUR_PASSWORD_SECRET', /* dùng để băm mật khẩu — đổi giá trị sẽ làm mất hiệu lực mật khẩu cũ */
+        'salt' => 'YOUR_PASSWORD_SALT',
         'debug-developer' => true,
         'debug-css' => true,
         'debug-js' => true,
@@ -87,14 +98,14 @@ $config = array(
         'recaptcha' => array(
             'active' => true,
             'urlapi' => 'https://www.google.com/recaptcha/api/siteverify',
-            'sitekey' => '6LfIBA0pAAAAABvKR5Qex11FJ06yHY3togiDBING',
-            'secretkey' => '6LfIBA0pAAAAANuL9jh_6AZ_T32ipaIhtOxYbcmv'
+            'sitekey' => 'YOUR_RECAPTCHA_SITEKEY',
+            'secretkey' => 'YOUR_RECAPTCHA_SECRET'
         )
     ),
     'oneSignal' => array(
         'active' => false,
-        'id' => 'af12ae0e-cfb7-41d0-91d8-8997fca889f8',
-        'restId' => 'MWFmZGVhMzYtY2U0Zi00MjA0LTg0ODEtZWFkZTZlNmM1MDg4'
+        'id' => 'YOUR_ONESIGNAL_APP_ID',
+        'restId' => 'YOUR_ONESIGNAL_REST_API_KEY'
     ),
     'license' => array(
         'version' => "8.2.4",/*Update: 26-6-2023 */

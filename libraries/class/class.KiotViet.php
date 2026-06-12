@@ -6,13 +6,17 @@ class KiotViet
     private $d;
     private $session;
     private $api_link = "https://public.kiotapi.com";
-    private $client = "4b63e4ca-59a4-4ded-8588-31fb98d07de1";
-    private $secret = "7D2FD28407231EB33BB58843638E338E639D6366";
-    private $name = "thanhnhaniphone";
+    private $client;
+    private $secret;
+    private $name;
 
     function __construct($d)
     {
         $this->d = $d;
+        /* Credentials are defined in libraries/config.php (see libraries/config.sample.php) */
+        $this->client = defined('KIOTVIET_CLIENT_ID') ? KIOTVIET_CLIENT_ID : '';
+        $this->secret = defined('KIOTVIET_CLIENT_SECRET') ? KIOTVIET_CLIENT_SECRET : '';
+        $this->name = defined('KIOTVIET_RETAILER') ? KIOTVIET_RETAILER : '';
         $this->check_login();
     }
 
