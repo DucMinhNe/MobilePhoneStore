@@ -93,7 +93,7 @@ Every request is rewritten by `.htaccess` to a single front controller:
 ├── templates-mobile/     # Mobile storefront views (auto-selected per device)
 ├── admin/                # Admin CMS (own sources/, templates/, api/, editors)
 ├── libraries/
-│   ├── config.php        # Central config: DB, base URL, debug flags, API keys
+│   ├── config.php        # Central config (copy of config.sample.php): DB, URL, API keys
 │   ├── router.php        # Route table + friendly-URL (slug) resolution
 │   ├── autoload.php      # Class autoloader
 │   ├── class/            # Core services: PDODb, Cache, Cart, Seo, KiotViet, …
@@ -128,7 +128,13 @@ Every request is rewritten by `.htaccess` to a single front controller:
    mysql -u root -p khang_store < ipadstore.sql
    ```
 
-3. **Configure** `libraries/config.php` — update the `database` block (`host`, `username`, `password`, `dbname`, and `url` if you cloned into a folder other than `IpadStore`). Table prefix is `table_`.
+3. **Create your config from the sample** (`libraries/config.php` is git-ignored and never committed):
+
+   ```bash
+   cp libraries/config.sample.php libraries/config.php
+   ```
+
+   Then fill in your real keys in `libraries/config.php` — update the `database` block (`host`, `username`, `password`, `dbname`, and `url` if you cloned into a folder other than `IpadStore`; table prefix is `table_`), the `website` `secret`/`salt`, and your own reCAPTCHA, OneSignal, and KiotViet (`KIOTVIET_*`) credentials.
 
 4. **Make runtime directories writable** if your server user differs from the file owner: `caches/`, `thumbs/`, `logs/`, `upload/`.
 
@@ -140,6 +146,6 @@ Every request is rewritten by `.htaccess` to a single front controller:
 
 - `website.debug-css` / `website.debug-js` — serve raw assets instead of minified bundles while developing; `website.error-reporting` toggles `E_ALL`.
 - `googleAPI.recaptcha` — supply your own reCAPTCHA site/secret keys for the contact and booking forms.
-- `oneSignal` / `libraries/class/class.KiotViet.php` — set your own OneSignal app and KiotViet API credentials to enable push notifications and live warranty lookup.
+- `oneSignal` / `KIOTVIET_*` constants — set your own OneSignal app and KiotViet API credentials in `libraries/config.php` to enable push notifications and live warranty lookup.
 - `order.ship` — set to `true` to enable per-ward shipping fees at checkout.
 - The site is Vietnamese-first (`Asia/Ho_Chi_Minh` timezone); an English locale is scaffolded in `libraries/lang/en.php` and the `comlang` slug map.

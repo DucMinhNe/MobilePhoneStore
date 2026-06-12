@@ -1,3 +1,4 @@
 # thumbs/
 logs/
 **/caches
+libraries/config.php
