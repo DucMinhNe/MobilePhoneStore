@@ -78,7 +78,7 @@
 					{
 						$fileUpdate['file_attach'] = $file_attach;
 						$d->where('id', $id_insert);
-						$d->update('contact', $fileUpdate);
+						$d->update('newsletter', $fileUpdate);
 						unset($fileUpdate);
 					}
 				}
