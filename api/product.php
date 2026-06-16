@@ -4,7 +4,7 @@ include "config.php";
 /* Paginations */
 include LIBRARIES . "class/class.PaginationsAjax.php";
 $pagingAjax = new PaginationsAjax();
-$pagingAjax->perpage = (!empty($_GET['perpage'])) ? htmlspecialchars($_GET['perpage']) : 1;
+$pagingAjax->perpage = (!empty($_GET['perpage'])) ? (int) $_GET['perpage'] : 1;
 $eShow = htmlspecialchars($_GET['eShow']);
 $idList = (!empty($_GET['idList'])) ? htmlspecialchars($_GET['idList']) : 0;
 $idCat = (isset($_GET['idCat']) && $_GET['idCat'] > 0) ? htmlspecialchars($_GET['idCat']) : 0;
