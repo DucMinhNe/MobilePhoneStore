@@ -98,8 +98,8 @@ class Comments
     public function limitLists()
     {
         /* Request data */
-        $limitFrom = (!empty($_GET['limitFrom'])) ? $this->func->sanitize($_GET['limitFrom']) : 0;
-        $limitGet = (!empty($_GET['limitGet'])) ? $this->func->sanitize($_GET['limitGet']) : 0;
+        $limitFrom = (!empty($_GET['limitFrom'])) ? (int) $this->func->sanitize($_GET['limitFrom']) : 0;
+        $limitGet = (!empty($_GET['limitGet'])) ? (int) $this->func->sanitize($_GET['limitGet']) : 0;
         $is_admin = (!empty($_GET['isAdmin'])) ? true : false;
         $this->id_variant = (!empty($_GET['idVariant'])) ? $this->func->sanitize($_GET['idVariant']) : 0;
         $this->type = (!empty($_GET['type'])) ? $this->func->sanitize($_GET['type']) : '';
@@ -158,8 +158,8 @@ class Comments
     public function limitReplies()
     {
         /* Request data */
-        $limitFrom = (!empty($_GET['limitFrom'])) ? $this->func->sanitize($_GET['limitFrom']) : 0;
-        $limitGet = (!empty($_GET['limitGet'])) ? $this->func->sanitize($_GET['limitGet']) : 0;
+        $limitFrom = (!empty($_GET['limitFrom'])) ? (int) $this->func->sanitize($_GET['limitFrom']) : 0;
+        $limitGet = (!empty($_GET['limitGet'])) ? (int) $this->func->sanitize($_GET['limitGet']) : 0;
         $id_parent = (!empty($_GET['idParent'])) ? $this->func->sanitize($_GET['idParent']) : 0;
         $id_variant = (!empty($_GET['idVariant'])) ? $this->func->sanitize($_GET['idVariant']) : 0;
         $type = (!empty($_GET['type'])) ? $this->func->sanitize($_GET['type']) : '';
