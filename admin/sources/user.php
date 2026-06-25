@@ -86,19 +86,21 @@ function viewPermissionGroups()
     global $d, $func, $curPage, $items, $paging;
 
     $where = "";
+    $params = array();
 
     if (isset($_REQUEST['keyword'])) {
         $keyword = htmlspecialchars($_REQUEST['keyword']);
-        $where .= " and fullname LIKE '%$keyword%'";
+        $where .= " and fullname LIKE ?";
+        $params[] = '%' . $keyword . '%';
     }
 
     $perPage = 10;
     $startpoint = ($curPage * $perPage) - $perPage;
     $limit = " limit " . $startpoint . "," . $perPage;
     $sql = "select * from #_permission_group where id<>0 $where order by numb,id desc $limit";
-    $items = $d->rawQuery($sql);
+    $items = $d->rawQuery($sql, $params);
     $sqlNum = "select count(*) as 'num' from #_permission_group where id<>0 $where order by numb,id desc";
-    $count = $d->rawQueryOne($sqlNum);
+    $count = $d->rawQueryOne($sqlNum, $params);
     $total = (!empty($count)) ? $count['num'] : 0;
     $url = "index.php?com=user&act=permission_group";
     $paging = $func->pagination($total, $perPage, $curPage, $url);
