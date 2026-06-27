@@ -133,6 +133,9 @@ if (!empty($_POST['thanhtoan'])) {
         $size = $_SESSION['cart'][$i]['size'];
         $code_order = $_SESSION['cart'][$i]['code'];
         $proinfo = $cart->getProductInfo($pid);
+        $arrSize = (!empty($proinfo['option_size'])) ? json_decode($proinfo['option_size'], true) : null;
+        $item_regular_price = (isset($arrSize[$size]['regular_price'])) ? $arrSize[$size]['regular_price'] : $proinfo['regular_price'];
+        $item_sale_price = (isset($arrSize[$size]['sale_price'])) ? $arrSize[$size]['sale_price'] : $proinfo['sale_price'];
         $text_color = $cart->getProductColor($color);
         $text_size = $cart->getProductSize($size);
         $text_attr = '';
@@ -157,15 +160,15 @@ if (!empty($_POST['thanhtoan'])) {
         $orderDetailVals = array(
             $proinfo['name' . $lang],
             $text_attr,
-            $func->formatMoney($proinfo['sale_price']),
-            $func->formatMoney($proinfo['regular_price']),
+            $func->formatMoney($item_sale_price),
+            $func->formatMoney($item_regular_price),
             $q,
-            $func->formatMoney($proinfo['sale_price'] * $q),
-            $func->formatMoney($proinfo['regular_price'] * $q)
+            $func->formatMoney($item_sale_price * $q),
+            $func->formatMoney($item_regular_price * $q)
         );
 
         /* Get order details */
-        $order_detail .= str_replace($orderDetailVars, $orderDetailVals, $emailer->markdown('order/details', ['productAttr' => $text_attr, 'salePrice' => $proinfo['sale_price']]));
+        $order_detail .= str_replace($orderDetailVars, $orderDetailVals, $emailer->markdown('order/details', ['productAttr' => $text_attr, 'salePrice' => $item_sale_price]));
     }
 
     /* Total order */
@@ -212,9 +215,11 @@ if (!empty($_POST['thanhtoan'])) {
         for ($i = 0; $i < $max; $i++) {
             $pid = $_SESSION['cart'][$i]['productid'];
             $q = $_SESSION['cart'][$i]['qty'];
+            $size_id = $_SESSION['cart'][$i]['size'];
             $proinfo = $cart->getProductInfo($pid);
-            $regular_price = $proinfo['regular_price'];
-            $sale_price = $proinfo['sale_price'];
+            $arrSize = (!empty($proinfo['option_size'])) ? json_decode($proinfo['option_size'], true) : null;
+            $regular_price = (isset($arrSize[$size_id]['regular_price'])) ? $arrSize[$size_id]['regular_price'] : $proinfo['regular_price'];
+            $sale_price = (isset($arrSize[$size_id]['sale_price'])) ? $arrSize[$size_id]['sale_price'] : $proinfo['sale_price'];
             $color = $cart->getProductColor($_SESSION['cart'][$i]['color']);
             $size = $cart->getProductSize($_SESSION['cart'][$i]['size']);
             $code_order = $_SESSION['cart'][$i]['code'];
